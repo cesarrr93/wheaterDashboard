@@ -140,7 +140,7 @@ function renderweather(citySearch) {
                     return forecastResponse.json();
                 })
                 .then(function (forecastResponse) {
-                    var futureForecast = document.querySelector('#future-forecast');
+                    var futureForecast = document.querySelector('#future-cast');
                     futureForecast.innerHTML = "";
                     var futureTitle = document.createElement('h2');
                     futureTitle.innerHTML = "5 Day Forecast";
